@@ -1,0 +1,1 @@
+export {tickets as ticketsData} from './tickets.json';

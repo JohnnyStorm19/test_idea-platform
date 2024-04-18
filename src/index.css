@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply w-full py-4 px-4 bg-btn-primary text-white font-semibold rounded-lg shadow-md hover:bg-btn-primary-hover;
+  },
+  .btn-disabled {
+    @apply bg-gray-400;
+  },
+  .ticket-time {
+    @apply text-5xl
+  }
+  .ticket-cities {
+    @apply font-bold
+  }
+  .ticket-date {
+    @apply text-gray-400
+  }
+  .ticket-stops {
+    @apply text-gray-400
+  }
+  .ticket-stops-icon {
+    @apply bg-flight-route bg-cover w-24 h-10
+  }
+}
