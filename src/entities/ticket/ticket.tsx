@@ -37,7 +37,7 @@ export const Ticket = ({ ticketData }: TicketProps) => {
   const formatArrivalDate = formatDate(arrival_date);
 
   return (
-    <div className="md:h-48 flex flex-wrap-reverse md:flex-nowrap rounded-lg bg-white shadow-md divide-x-2">
+    <div className="md:max-h-48 flex flex-wrap-reverse md:flex-nowrap rounded-lg bg-white shadow-md divide-x-2">
       <section className="w-full flex flex-col items-center justify-center xl:flex-1 gap-6 px-6 py-6">
         <CarrierLogo carrier={carrier} />
         <Button onClick={() => console.log("Купить!")}>{btnText}</Button>
