@@ -11,7 +11,7 @@ export default {
         'btn-primary-hover': '#EB7231',
       },
       backgroundImage: {
-        'flight-route': "url('src/shared/assets/images/ticket/plane_route_1.avif')"
+        'flight-route': "url('/src/shared/assets/images/ticket/plane_route_1.avif')"
       }
     },
   },
